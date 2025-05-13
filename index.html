@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Automation Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Form Automation Demo</h1>
+    <p>Try out our tool and embed your own forms or widgets!</p>
+  </header>
+
+  <main>
+    <!-- Demo Area -->
+    <section id="form-demo">
+      <h2>Try Our Sample Form</h2>
+      <form id="sampleForm">
+        <label>Name:
+          <input type="text" name="name" required />
+        </label>
+        <label>Email:
+          <input type="email" name="email" required />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="formOutput"></div>
+    </section>
+
+    <!-- Embed Section -->
+    <section id="embed-section">
+      <h2>Embed Your Own Code</h2>
+      <textarea id="embedInput" placeholder="Paste your HTML/JS code here (e.g., iframe or script)..."></textarea>
+      <button id="embedBtn">Embed</button>
+      <div id="embedOutput"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
